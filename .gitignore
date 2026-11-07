@@ -377,3 +377,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Migrations
+Migrations/
