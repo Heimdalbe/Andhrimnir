@@ -5,7 +5,7 @@ LAN-Catering project Heimdal
 Deze repository bevat:
 
 - **`backend/`**: ASP.NET Core API (.NET 9, EF Core, MySQL via Docker Compose)
-- **`frontend/`**: React + Vite + TypeScript + Tailwind CSS + shadcn/ui
+- **`frontend/`**: React + Vite + TypeScript + Tailwind CSS
 
 Deze README beschrijft hoe je het project **lokaal draaiend krijgt** nadat je het gecloned hebt.
 
