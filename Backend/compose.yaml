@@ -1,0 +1,14 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: Andhrimnir-mysql-DEV
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: AndhrimnirDbDEV
+    ports:
+      - "3367:3306"
+    volumes:
+      - Andhrimnir-data:/var/lib/mysql
+
+volumes:
+  Andhrimnir-data:

@@ -1,0 +1,131 @@
+## .gitignore voor .NET backend + React/Vite frontend (pnpm)
+
+# ---------------------------------------------------------------
+# Environment variables / secrets
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------
+# EF Core migrations (lokaal gegenereerd, niet gedeeld via Git)
+# ---------------------------------------------------------------
+Migrations/
+
+# ---------------------------------------------------------------
+# IDE / editor
+# ---------------------------------------------------------------
+# Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# JetBrains Rider / WebStorm
+.idea/
+
+# VS Code (gedeelde configuratie wel toelaten)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.vscode-test
+*.vsix
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local history
+.history/
+.vshistory/
+**/.localhistory/
+
+# ---------------------------------------------------------------
+# Besturingssysteem
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+~$*
+*~
+
+# ---------------------------------------------------------------
+# .NET build output
+# ---------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+.artifacts/
+publish/
+*.[Pp]ublish.xml
+*.pubxml
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# Tests en coverage
+[Tt]est[Rr]esult*/
+*.trx
+TestResult.xml
+*.received.*
+CodeCoverage/
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+*.lcov
+.nyc_output
+
+# Diagnostiek
+*.binlog
+MSBuild_Logs/
+BenchmarkDotNet.Artifacts/
+
+# ---------------------------------------------------------------
+# Node / Vite / pnpm
+# ---------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# pnpm
+.pnpm-store/
+pnpm-debug.log*
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caches
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.cache/
+
+# Diverse
+*.tgz
