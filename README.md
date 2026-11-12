@@ -279,8 +279,8 @@ Server      ──> Persistence
 - **Domain blijft schoon.** Geen EF Core- of MySQL-specifieke configuratie in `Domain`; dat hoort in
   `Persistence`.
 - Lint en test vóór je commit en push.
-- PR's worden altijd gemaakt naar de DEV-branch, en deze kunnen **enkel** gemerged worden wanner Wout Lesschaeve (ICT) of Seppe Landtsheer (Pro-Senior) deze hebben goedgekeurd.
-- Mergen naar de PROD branch gebeurd **enkel** door Wout of Seppe.
+- PR's worden altijd gemaakt naar de DEV-branch, en deze kunnen **enkel** gemerged worden wanneer Wout Lesschaeve (ICT) of Seppe Landtsheer (Pro-Senior) deze hebben goedgekeurd.
+- Mergen naar de PROD branch gebeurt **enkel** door Wout of Seppe.
 
 Vragen, opmerkingen, commentaar of wil je wat anders kwijt? Neem gerust contact op met Wout of Seppe, zij zullen je met veel plezier verder helpen :)
 
