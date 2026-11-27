@@ -1,0 +1,57 @@
+name: Bug
+description: Een fout gevonden tijdens het bouwen of testen.
+title: "[BUG ON CAT-xxx] "
+type: Bug
+body:
+  - type: textarea
+    id: stappen
+    attributes:
+      label: Stappen om te reproduceren
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: verwacht
+    attributes:
+      label: Verwacht resultaat
+    validations:
+      required: true
+  - type: textarea
+    id: werkelijk
+    attributes:
+      label: Werkelijk resultaat
+      description: Voeg eventueel een screenshot of foutmelding toe.
+    validations:
+      required: true
+  - type: dropdown
+    id: onderdeel
+    attributes:
+      label: Onderdeel
+      options:
+        - API
+        - Database
+        - Gebruikersfrontend
+        - Keukenfrontend
+        - Kassafrontend
+        - Afhaalscherm
+    validations:
+      required: true
+  - type: dropdown
+    id: omgeving
+    attributes:
+      label: Omgeving
+      options:
+        - Lokaal
+        - dev
+        - ACC
+        - Prod
+    validations:
+      required: true
+  - type: input
+    id: gerelateerd
+    attributes:
+      label: Gerelateerde Task
+      placeholder: "#27"
