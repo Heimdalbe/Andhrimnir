@@ -1,0 +1,23 @@
+name: Feature
+description: Groot onderdeel, één per FDD. Bevat Tasks als sub-issues.
+title: "[CAT-xxx] "
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Een Feature komt overeen met één FDD. Je werkt er niet rechtstreeks op; maak er Tasks onder via **Create sub-issue**.
+  - type: textarea
+    id: doel
+    attributes:
+      label: Doel
+      description: Wat moet dit onderdeel opleveren?
+    validations:
+      required: true
+  - type: input
+    id: bron
+    attributes:
+      label: Bron
+      placeholder: "FDD CAT-xxx – titel"
+    validations:
+      required: true
