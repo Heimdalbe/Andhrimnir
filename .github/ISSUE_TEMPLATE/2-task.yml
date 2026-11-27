@@ -1,0 +1,39 @@
+name: Task
+description: Stuk werk onder een Feature dat in één pull request past.
+title: "[CAT-xxx] "
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Koppel deze Task na het aanmaken aan zijn Feature via **Relationships → Add parent**, en leg afhankelijkheden vast met **Mark as blocked by**.
+  - type: textarea
+    id: wat
+    attributes:
+      label: Wat
+      description: Wat moet er gebouwd worden?
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: acceptatiecriteria
+    attributes:
+      label: Acceptatiecriteria
+      description: Wanneer is deze Task af? Eén criterium per regel.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: open-punt
+    attributes:
+      label: Open punt
+      description: Is er iets dat eerst beslist moet worden? Dan blijft de Task in Backlog.
+  - type: input
+    id: bron
+    attributes:
+      label: Bron
+      placeholder: "FDD CAT-xxx, hoofdstuk x.x"
+    validations:
+      required: true
