@@ -1,6 +1,6 @@
 name: Feature
 description: Groot onderdeel, één per FDD. Bevat Tasks als sub-issues.
-title: "[CAT-xxx] "
+title: "[CAT-xxx] (Epic)"
 type: Feature
 body:
   - type: markdown
@@ -18,6 +18,6 @@ body:
     id: bron
     attributes:
       label: Bron
-      placeholder: "FDD CAT-xxx – titel"
+      placeholder: "FDD CAT-xxx – titel (Epic)"
     validations:
       required: true
