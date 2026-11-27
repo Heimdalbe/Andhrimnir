@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Werkwijze en vragen
+    url: https://github.com/Heimdalbe/Andhrimnir/blob/HEAD/CONTRIBUTING.md
+    about: Lees eerst hoe we met issues en pull requests werken.
+  - name: Beveiligingsprobleem melden
+    url: https://github.com/Heimdalbe/Andhrimnir/security/advisories/new
+    about: Meld kwetsbaarheden nooit via een publiek issue.
