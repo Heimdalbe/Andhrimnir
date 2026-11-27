@@ -2,6 +2,7 @@ name: Feature
 description: Groot onderdeel, één per FDD. Bevat Tasks als sub-issues.
 title: "[CAT-xxx] (Epic)"
 type: Feature
+labels: ["Epic"]
 body:
   - type: markdown
     attributes:
